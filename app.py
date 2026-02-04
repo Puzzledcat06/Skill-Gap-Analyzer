@@ -13,6 +13,17 @@ st.set_page_config(page_title="AI Skill Gap Analyzer", layout="wide")
 st.title("🧠 AI Skill Gap Analyzer")
 st.caption("Interactive, role-based skill assessment with AI-driven evaluation")
 
+st.markdown("""
+This AI-powered Skill Gap Analyzer evaluates your current skills against a target job role.
+You’ll answer scenario-based questions, and the system will identify strengths, areas for improvement,
+and priority learning areas with a personalized roadmap.
+""")
+
+# --- Reset button ---
+if st.button("🔄 Reset Assessment"):
+    st.session_state.clear()
+    st.experimental_rerun()
+
 # --- Role selection ---
 def list_roles():
     roles = {}
