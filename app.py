@@ -22,7 +22,7 @@ and priority learning areas with a personalized roadmap.
 # --- Reset button ---
 if st.button("🔄 Reset Assessment"):
     st.session_state.clear()
-    st.experimental_rerun()
+    st.rerun()
 
 # --- Role selection ---
 def list_roles():
