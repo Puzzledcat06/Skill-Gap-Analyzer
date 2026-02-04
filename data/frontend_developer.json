@@ -1,0 +1,57 @@
+{
+  "role_id": "frontend_developer",
+  "role_name": "Frontend Developer",
+  "skills": [
+    {
+      "skill_id": "javascript",
+      "skill_name": "JavaScript",
+      "category": "core",
+      "importance_weight": 5,
+      "subskills": [
+        {
+          "subskill_id": "async_js",
+          "checkpoints": [
+            {
+              "checkpoint_id": "promises_async",
+              "description": "Explain how you would handle asynchronous API calls in JavaScript."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "skill_id": "react",
+      "skill_name": "React",
+      "category": "core",
+      "importance_weight": 5,
+      "subskills": [
+        {
+          "subskill_id": "state_management",
+          "checkpoints": [
+            {
+              "checkpoint_id": "react_state",
+              "description": "How would you manage global state in a React application?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "skill_id": "performance",
+      "skill_name": "Frontend Performance",
+      "category": "supporting",
+      "importance_weight": 3,
+      "subskills": [
+        {
+          "subskill_id": "optimization",
+          "checkpoints": [
+            {
+              "checkpoint_id": "bundle_size",
+              "description": "How would you reduce bundle size and improve page load performance?"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

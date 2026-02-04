@@ -1,0 +1,91 @@
+{
+  "role_id": "backend_developer",
+  "role_name": "Backend Developer",
+  "skills": [
+    {
+      "skill_id": "programming",
+      "skill_name": "Backend Programming (Python/Java)",
+      "category": "core",
+      "importance_weight": 5,
+      "subskills": [
+        {
+          "subskill_id": "api_basics",
+          "checkpoints": [
+            {
+              "checkpoint_id": "rest_api_design",
+              "description": "How would you design a REST API for a user management system?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "skill_id": "databases",
+      "skill_name": "Databases (SQL/NoSQL)",
+      "category": "core",
+      "importance_weight": 5,
+      "subskills": [
+        {
+          "subskill_id": "schema_design",
+          "checkpoints": [
+            {
+              "checkpoint_id": "normalization",
+              "description": "Explain how you would design a normalized relational database schema for an e-commerce application."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "skill_id": "system_design",
+      "skill_name": "System Design",
+      "category": "core",
+      "importance_weight": 4,
+      "subskills": [
+        {
+          "subskill_id": "scalability",
+          "checkpoints": [
+            {
+              "checkpoint_id": "scaling_strategy",
+              "description": "How would you design a backend system to handle sudden spikes in traffic?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "skill_id": "authentication",
+      "skill_name": "Authentication & Security",
+      "category": "supporting",
+      "importance_weight": 4,
+      "subskills": [
+        {
+          "subskill_id": "auth_flows",
+          "checkpoints": [
+            {
+              "checkpoint_id": "jwt_oauth",
+              "description": "Explain how JWT or OAuth can be used for securing APIs."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "skill_id": "devops_basics",
+      "skill_name": "DevOps Basics",
+      "category": "supporting",
+      "importance_weight": 3,
+      "subskills": [
+        {
+          "subskill_id": "ci_cd",
+          "checkpoints": [
+            {
+              "checkpoint_id": "pipeline_design",
+              "description": "How would you set up a basic CI/CD pipeline for a backend service?"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

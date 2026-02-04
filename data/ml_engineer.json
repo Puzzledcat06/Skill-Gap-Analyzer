@@ -1,0 +1,91 @@
+{
+  "role_id": "ml_engineer",
+  "role_name": "Machine Learning Engineer",
+  "skills": [
+    {
+      "skill_id": "python",
+      "skill_name": "Python Programming",
+      "category": "core",
+      "importance_weight": 4,
+      "subskills": [
+        {
+          "subskill_id": "python_data_handling",
+          "checkpoints": [
+            {
+              "checkpoint_id": "pandas_cleaning",
+              "description": "How would you clean missing values and outliers in a pandas DataFrame?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "skill_id": "feature_engineering",
+      "skill_name": "Feature Engineering",
+      "category": "core",
+      "importance_weight": 5,
+      "subskills": [
+        {
+          "subskill_id": "encoding_features",
+          "checkpoints": [
+            {
+              "checkpoint_id": "high_cardinality_encoding",
+              "description": "How would you encode categorical features with high cardinality?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "skill_id": "model_training",
+      "skill_name": "Model Training",
+      "category": "core",
+      "importance_weight": 5,
+      "subskills": [
+        {
+          "subskill_id": "algorithm_selection",
+          "checkpoints": [
+            {
+              "checkpoint_id": "model_choice",
+              "description": "How would you choose between logistic regression and a tree-based model for a given problem?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "skill_id": "model_evaluation",
+      "skill_name": "Model Evaluation",
+      "category": "supporting",
+      "importance_weight": 4,
+      "subskills": [
+        {
+          "subskill_id": "metrics_selection",
+          "checkpoints": [
+            {
+              "checkpoint_id": "imbalanced_metrics",
+              "description": "Which evaluation metrics would you use for an imbalanced classification problem and why?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "skill_id": "deployment",
+      "skill_name": "Model Deployment",
+      "category": "supporting",
+      "importance_weight": 4,
+      "subskills": [
+        {
+          "subskill_id": "deployment_basics",
+          "checkpoints": [
+            {
+              "checkpoint_id": "serving_models",
+              "description": "How would you deploy a trained model as an API for real-time inference?"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

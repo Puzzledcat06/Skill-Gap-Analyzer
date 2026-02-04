@@ -1,0 +1,91 @@
+{
+  "role_id": "data_analyst",
+  "role_name": "Data Analyst",
+  "skills": [
+    {
+      "skill_id": "sql",
+      "skill_name": "SQL",
+      "category": "core",
+      "importance_weight": 5,
+      "subskills": [
+        {
+          "subskill_id": "sql_queries",
+          "checkpoints": [
+            {
+              "checkpoint_id": "group_by_case",
+              "description": "Write a SQL query to calculate monthly revenue per product category."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "skill_id": "python",
+      "skill_name": "Python for Data Analysis",
+      "category": "core",
+      "importance_weight": 4,
+      "subskills": [
+        {
+          "subskill_id": "pandas_analysis",
+          "checkpoints": [
+            {
+              "checkpoint_id": "data_cleaning",
+              "description": "How would you handle missing and inconsistent values in a dataset using pandas?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "skill_id": "eda",
+      "skill_name": "Exploratory Data Analysis (EDA)",
+      "category": "core",
+      "importance_weight": 4,
+      "subskills": [
+        {
+          "subskill_id": "visual_insights",
+          "checkpoints": [
+            {
+              "checkpoint_id": "outlier_detection",
+              "description": "How would you identify and investigate outliers during EDA?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "skill_id": "statistics",
+      "skill_name": "Statistics",
+      "category": "supporting",
+      "importance_weight": 3,
+      "subskills": [
+        {
+          "subskill_id": "hypothesis_testing",
+          "checkpoints": [
+            {
+              "checkpoint_id": "ab_testing",
+              "description": "Explain how you would design and interpret an A/B test."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "skill_id": "data_visualization",
+      "skill_name": "Data Visualization",
+      "category": "supporting",
+      "importance_weight": 3,
+      "subskills": [
+        {
+          "subskill_id": "dashboard_design",
+          "checkpoints": [
+            {
+              "checkpoint_id": "dashboard_metrics",
+              "description": "How would you design a dashboard to communicate business KPIs to stakeholders?"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

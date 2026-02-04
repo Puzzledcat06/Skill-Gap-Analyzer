@@ -1,0 +1,57 @@
+{
+  "role_id": "data_engineer",
+  "role_name": "Data Engineer",
+  "skills": [
+    {
+      "skill_id": "sql",
+      "skill_name": "SQL & Data Modeling",
+      "category": "core",
+      "importance_weight": 5,
+      "subskills": [
+        {
+          "subskill_id": "warehouse_modeling",
+          "checkpoints": [
+            {
+              "checkpoint_id": "star_schema",
+              "description": "How would you design a star schema for an analytics warehouse?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "skill_id": "etl",
+      "skill_name": "ETL / Data Pipelines",
+      "category": "core",
+      "importance_weight": 5,
+      "subskills": [
+        {
+          "subskill_id": "pipeline_design",
+          "checkpoints": [
+            {
+              "checkpoint_id": "batch_vs_stream",
+              "description": "When would you choose batch processing over streaming pipelines?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "skill_id": "big_data",
+      "skill_name": "Big Data Tools",
+      "category": "supporting",
+      "importance_weight": 4,
+      "subskills": [
+        {
+          "subskill_id": "spark_basics",
+          "checkpoints": [
+            {
+              "checkpoint_id": "spark_optimization",
+              "description": "How would you optimize a slow Spark job processing large datasets?"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
